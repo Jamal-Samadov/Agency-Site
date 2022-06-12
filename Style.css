@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    padding: 0 4rem;
+}
+
+.Studio-head{
+position: fixed;
+}
+
+
+.left{
+    width: 25%;
+    padding: 0 4rem;
+    margin-right: 66px;
+}
+
+.left svg{
+    width: 100%;
+    height: 100%;
+}
+
+.Studio-head .right{
+    width: 50%;
+    height: 50%;
+    margin: 32px 150px;
+}
+
+.right a{
+    width: 30%;
+    text-decoration: none; 
+    color: white;
+    padding: 30px;
+}
+
+.Studio-head{
+    display: flex;
+    align-items: center;
+}
+
+.Studio-body{
+    background-image: url(https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 14rem 0;
+    text-align: center;
+    text-decoration: none;
+}
+.Studio-body h3{
+    color: white;
+    font-size: 36px;
+    margin: 0px 0px 32px;
+}
+
+.Studio-body h1{
+    color: white;
+    font-size: 73px;
+    margin: 0px 0px 64px;
+}
+
+.Studio-body a{
+    border-radius: 6px;
+    color: white;
+    text-decoration: none;
+    background-color: yellow;
+    padding: 25px 65px;
+}
+
+.Services {
+    padding: 14rem;
+
+}
+.Services-head h1{
+    font-size: 54px;
+    color: #322f2f;
+    text-align: center;
+
+}
+
+.Services-head p{
+    font-size: 24px;
+    text-align: center;
+    height: 106px;
+    margin: 30px;
+}
+
+.Services-body .Item{
+    float: left;
+    width: calc(100%/3);  
+}
+
+.Services-body p{
+    padding: 15px 8px;
+    width: 75%;
+    text-align: center;
+    font-size: 21px;
+}
+
+.Services-body .Item i{
+    margin-bottom: 20px;
+    color: white;
+    background-color: rgb(192, 120, 11);
+    font-size: 50px;
+    padding: 40px;
+    margin: 0px 50px;
+    border-radius: 50%;
+}
+
+.Services-body h1{
+    padding: 0 43px;
+}
+
+.Portfolio {
+    padding: 10rem;
+    background-color: #F8F9FA;
+}
+.Port-head h1{
+    font-size: 54px;
+    color: #322f2f;
+    text-align: center;
+    margin-top: 111px;
+}
+
+.Port-head p{
+    font-size: 17px;
+    text-align: center;
+    height: 106px;
+    margin: 30px;
+}
+
+.Port-Body .Top {
+  width: calc(100%/3);
+    float: left;
+}
+
+.Port-Body .Top img{
+    width: 100%;
+    
+}
+
+.Team-top h1{
+    font-size: 54px;
+    color: #322f2f;
+    text-align: center;
+    margin-top: 111px;
+
+
+}
+
+.Team-top p{
+    font-size: 17px;
+    text-align: center;
+    height: 106px;
+    margin: 30px;
+    
+
+}
+
+.Team-body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.Team-body .box{
+    width: 40%;
+    vertical-align: bottom;
+    margin: 0px 36px;
+}
+
+.Team-body img{
+    width: 70%;
+    border-radius: 100%;
+    border: 7px solid rgb(167, 161, 161);
+}
+
+.Team-body .box h1{
+    margin: 0px 55px;
+
+}
+
+.Team-body .box p{
+    margin: 2px 78px;
+    padding: 12px;
+}
+
+.Team-body .box i{
+    background-color: #322f2f;
+    padding: 15px 17px;
+    color: white;
+    font-size: 23px;
+    border-radius: 100%;
+    margin: 10px 10px;
+}
+
+.Team-footer p{
+    margin: 0px 224px;
+    text-align: center;
+    padding: 85px;
+    font-size: 20px;
+    color: #585555;
+}
+
+
+.Company-logo{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px;
+}
+.Company .Company-logo .box{
+    width: 25%;
+    padding: 0 4rem;
+}
+
+.Company .Company-logo .box img{
+    width: 100%;
+}
+
+
+
